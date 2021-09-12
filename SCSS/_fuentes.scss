@@ -7,7 +7,6 @@ $centrar:center;
 $derecha: right;
 $izquierda: left;
 
-
 .texto{
 	text-align:$centrar;
 	font-size:$tamaño;
@@ -73,3 +72,13 @@ h1 {
 
 .Centrar { text-align: center}
 .redes { list-style: none; display: inline-flex;}
+.descripcion { display: flex; text-align: center; align-items: center; }
+.animacion { width: 170px;
+transition: all 1s; }
+.animacion:hover{ width: 220px;}
+.textoDescripcion { font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
+    background-color: cornsilk; }
+.botonAdoptar { color: white}
